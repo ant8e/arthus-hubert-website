@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{e6Wu:function(t,n,o){"use strict";o.r(n),function(t){o("SYky"),o("hZTp");t("#alert").click(function(){alert("jQuery works!")}),t(".js-scrollTo").click(function(){var n=t(this).attr("href");return t("html, body").animate({scrollTop:t(n).offset().top},500),!1})}.call(this,o("EVdn"))},hZTp:function(t,n,o){}},[["e6Wu",1,2]]]);
