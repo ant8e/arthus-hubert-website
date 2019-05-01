@@ -1,6 +1,6 @@
-# Boostrap + Webpack + JQuery Boilerplate
+# Arthus & Hubert website
 
-Boilerplate from  : xxhomey19/bootstrap-webpack-jquery-boilerplate
+Boilerplate from : xxhomey19/bootstrap-webpack-jquery-boilerplate
 Used under MIT Licence
 
 ## Development
@@ -26,6 +26,5 @@ Deploy to `gh-pages` branch on GitHub.
 ```
 $ npm run deploy
 ```
-
 
 Copyright Arthus&Hubert 2019

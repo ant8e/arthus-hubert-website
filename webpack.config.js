@@ -79,6 +79,18 @@ const config = {
           },
         ],
       },
+      {
+        test: /fa-.*\.(woff2|woff|eot|svg|ttf)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[path][name]-[hash]-.[ext]',
+              // context: join(config.source_path),
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [
