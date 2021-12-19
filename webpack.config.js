@@ -127,6 +127,8 @@ const config = {
   ],
   devServer: {
     contentBase: path.join(__dirname, 'src'),
+    host: '0.0.0.0',
+    allowedHosts: ['mercury.local']
   },
   optimization: {
     runtimeChunk: 'single',

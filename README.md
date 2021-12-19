@@ -27,4 +27,10 @@ Deploy to `gh-pages` branch on GitHub.
 $ npm run deploy
 ```
 
-Copyright Arthus&Hubert 2019
+## With Docker
+
+```
+ docker run --rm --tty --interactive --volume $PWD:/code -p8088:8080 node:15 npm  --prefix /code run
+```
+
+Copyright Arthus&Hubert 2019-2021
