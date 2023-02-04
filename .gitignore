@@ -5,3 +5,5 @@ dist/
 /website.iml
 /website.ipr
 /website.iws
+.metals/
+.vscode/
